@@ -1,0 +1,394 @@
+.landing_page_main_container
+{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    /* background-color: #fbfdff   !important; */
+}
+.banner
+{
+    width: 100%;
+    height:  max(68vh,530px);
+    margin-top: 5.8rem;
+   background: linear-gradient(84.53deg,#cfedeb 0,#dcf1ea 50%,#e7f5e8);
+}
+.banner_inner_cotainer
+{
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: auto;
+}
+.banner_left_side_div
+{
+    width: 40%;
+    /* height: 100%; */
+    margin-top: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 2rem;
+}
+.banner_right_side_div
+{
+    width: 60%;
+    margin-left: auto;
+    margin-top: auto;
+    border: 1px solid transparent;
+}
+.banner_right_side_div img
+{
+    margin-top: auto !important;
+    margin-left: auto !important;
+    max-height: 100%;
+    border: 1px solid transparent;
+}
+
+.banner_left_side_div h2
+{
+    margin-top: auto;
+    font-size: 2rem;
+    
+}
+.banner_left_side_div h1
+{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 400;
+}
+.banner_left_side_div h2 span
+{
+    color: #3ca57e;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner_left_side_div button
+{ 
+   padding: 0.8rem 2rem;
+   font-size: 1rem;
+   color: white;
+   background-color: #4dce6d;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   border: none;
+   outline: none;
+   border-radius: 4px;
+   margin-top: 3rem;
+   margin-bottom: 4rem;
+   cursor: pointer;
+   transition: 0.3s all;
+}
+.banner_left_side_div button:hover{
+    opacity: 0.8;
+}
+.course_list
+{
+    max-width: 1400px;
+    border: 1px solid transparent;
+    margin: auto;
+}  
+.bottom_border
+{
+    width: 3rem;
+    height: 2px;
+    background-color: black;
+}
+.course_headerr h2
+{
+    margin-top: 3rem;
+  margin-bottom: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.courses_body_list
+{
+  width: 100%;
+  min-height: 50rem;
+  border: 1px solid transparent;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 1rem;
+  row-gap: 2rem;
+}
+.header_course
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_course button
+{
+    margin-top: 2.6rem;
+}
+
+
+
+.course_list_item_list
+{
+    width: max(99.5%,270px);
+    border: 1px solid  transparent;
+    /* min-height: 36rem; */
+    background-color: white;
+    border-radius: 1rem !important;
+    margin-top: 0.6rem;
+    overflow: hidden;
+    transition: all 1s ease 0;
+    max-height: 29rem;
+    transition: 0.3s all;
+    cursor: pointer;
+  
+    
+}
+.course_list_item_list:hover,.course_list_item_list:focus
+{
+    transform: scale(1.01);
+     box-shadow: 3px 5px 3px 0px #e9e7e7;
+}
+
+
+.course_list_item_banner_list
+{
+    width: 100%;
+    height: max(40%,180px);
+}
+.course_list_item_banner_list img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.course_list_item_list h2
+{
+    color: #ff630e;
+    margin: 0;
+    text-align: left;
+        /* padding: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0rem !important; */
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+
+}
+.course_list_item_list h1
+{
+    color: #130f40;
+    margin: 0;
+    font-size: clamp(1.2rem,1.5vw,1.3rem);
+    font-family: 'Rajdhani', sans-serif;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    text-align: left;
+    font-weight: 700;
+    max-height: 4.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 0.2rem;
+    padding-right: 0.3rem;
+}
+
+.course_list_item_star_list
+{
+    margin-left: 1rem;
+    text-align: left;
+    margin-top: 1.3rem;
+    display: flex;
+
+}
+
+
+.course_list_item_star_list img
+{
+    margin-right: 6px;
+}
+.course_list_item_list h4
+{
+    margin: 0;
+   text-align: left;
+    width: 90%;
+    margin-left: 1rem;
+    color: #4b4848;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 0.6rem;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+.course_list_item_border_list
+{
+    width: 85%;
+    height: 1px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 2.5rem;
+}
+.course_list_item_time
+{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-left:2.5rem;
+    align-items: center;
+    margin-top: 0rem !important;
+    padding-bottom: 0.7rem;
+}
+.course_list_item_time h5
+{
+    margin: 0;
+   font-weight: 500;
+   font-size: 1.1rem;
+   margin-left: 1rem;
+   padding-bottom: 1rem;
+   padding-top: 0.7rem !important;
+}
+
+.landing_footer
+{ 
+    width: 100%;
+    height: 3rem;
+    background-color: #eaeeed;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+.landing_footer i
+{
+    margin-inline: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    /* background-color: #cdd6d4;
+    border-radius: 50%;
+    padding: 0.5rem;
+    padding-inline: 0.6rem;
+    color:white; */
+    padding: 0.5rem;
+    padding-inline: 0.6rem;
+    color: black;
+}
+.landing_footer i:hover
+{
+     background-color: #dbf0eb;
+    border-radius: 50%;
+    color: #4dce6d; 
+}
+
+@media screen and (max-width:1400px) {
+    .banner_inner_cotainer
+{
+    max-width: 1200px;
+   
+}
+.banner_left_side_div
+{
+    margin-bottom: 0rem;
+    margin-left: 2rem !important;
+}
+.course_list
+{
+    max-width: 1200px;
+    
+} 
+.courses_body_list
+{
+ 
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 2rem;
+}
+.description
+{
+    max-height: 6.6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+}
+
+@media screen and (max-width:1200px) {
+ 
+.banner_left_side_div
+{
+    margin-bottom: 0rem;
+    padding-left: 1rem !important;
+    padding-top: 1rem;
+}
+.course_list
+{
+    max-width: 1200px;
+    padding: 1rem;
+    
+} 
+.courses_body_list
+{
+ 
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 1rem;
+
+
+}
+
+
+}
+
+@media screen and (max-width:900px) {
+ 
+    .banner_left_side_div
+    {
+        margin-bottom: 0rem;
+        padding-left: 1rem !important;
+        padding-top: 1rem;
+    }
+    .course_list
+    {
+        max-width: 1200px;
+        padding: 1rem;
+        
+    } 
+    .courses_body_list
+    {
+     
+      grid-template-columns: repeat(2,1fr);
+    
+    }
+    
+    
+    }
+
+    @media screen and (max-width:750px) {
+        .banner_inner_cotainer
+{
+    flex-direction: column;
+}
+.banner
+{
+    height: auto;
+}
+.banner_left_side_div
+{
+    width: 100%;
+    padding: 2rem;
+}
+.banner_right_side_div
+{
+    width: 100%;
+    padding: 2rem;
+}
+    }
+
+
+    @media screen and (max-width:600px) {
+        .courses_body_list
+        {
+      grid-template-columns: repeat(1,1fr);
+      margin: auto;
+      margin-top: 1rem;
+       border: 1px solid transparent;
+        }
+        .course_list_item_list
+        {
+            max-width: 400px;
+            margin: auto;
+        }
+      
+    }

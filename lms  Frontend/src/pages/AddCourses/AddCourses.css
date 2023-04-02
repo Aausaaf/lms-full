@@ -1,0 +1,85 @@
+.add_courses_main_container
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* backdrop-filter: blur(5px);  */
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.add_courses_main_body
+{
+  width: max(70%,300px);
+  min-height: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+
+}
+.add_courses_header
+{
+    width: 97%;
+    margin: auto;
+    border-bottom: 1px solid rgb(206, 202, 202);
+}
+.add_courses_header h2
+{
+    margin: 0;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 450;
+}
+
+.add_courses_form
+{
+    width: 97%;
+    min-height: 10rem;
+    max-height: 30rem;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    column-gap: 2rem;
+    margin-top: 1rem;
+    row-gap: 1.3rem;
+
+}
+.add_courses_form::-webkit-scrollbar
+{
+    display: none;
+}
+.add_courses_input p
+{
+    margin: 0;
+    font-size: 1rem;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.add_courses_input input ,.add_courses_input select,
+.add_courses_input textarea
+{
+    width: 100%;
+    padding: 0.85rem;
+    font-size: 1rem;
+    background-color: rgb(240, 243, 245);
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 0.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.add_course_content_warpper
+{
+    min-height: 600px;
+    max-height: 44vw;
+    overflow: scroll;
+}
+.add_course_content_warpper::-webkit-scrollbar
+{
+    display: none;
+}
